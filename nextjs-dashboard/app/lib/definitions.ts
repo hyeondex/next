@@ -15,7 +15,7 @@ export type Customer = {
   email: string;
   image_url: string;
 };
-
+// 데이터 검증 및 분비
 export type Invoice = {
   id: string;
   customer_id: string;
